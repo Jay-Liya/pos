@@ -1,0 +1,97 @@
+/* 
+    Document   : style
+    Created on : Sep 3, 2012, 3:50:06 PM
+    Author     : POS
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+input,div,b{margin:0px; padding:0px;}
+body {
+    background-color: #fff;
+    margin: 40px;
+    font: 13px/20px normal Helvetica, Arial, sans-serif;
+    color: #4F5155;
+
+}
+
+.txtbarcode{
+    width:260px;
+    height:25px;
+    padding:5px;
+}
+
+.txtqty{
+    padding:5px;
+    width:50px;
+    height:25px;
+    margin:5px;
+}
+
+.updownbutton {
+    margin: 0 0 0 5px;
+    text-indent: -9999px;
+    cursor: pointer;
+    width: 29px;
+    height: 29px;
+    float: left;
+    text-align: center;
+    background: url(../../assets/images/buttons.png) no-repeat;
+}
+
+.dec { background-position: 0 -29px; }
+
+/*pagination*/
+div.pagination {
+        text-align:left;
+}
+	
+div.pagination a {
+        padding: 4px 7px 4px 7px;
+        margin: 2px;
+        border: 1px solid #cccccc;
+        border-radius:3px;
+        background-color: #e6e6e6;
+        text-decoration: none; /* no underline */
+        color: #555555;
+}
+div.pagination a:hover, div.digg a:active {
+        border: 1px solid #999999;
+        border-radius:3px;
+        color: #000;
+}
+div.pagination span.current {
+        padding: 4px 7px 4px 7px;
+        margin: 2px;
+        border: 1px solid #cccccc;
+        border-radius:3px;
+        font-weight: bold;
+        background-color: #e6e6e6;
+        color: #e17009;
+}
+div.pagination span.disabled {
+        padding: 4px 7px 4px 7px;
+        margin: 2px;
+        border: 1px solid #EEE;
+        border-radius:3px;
+        color: #DDD;
+}
+
+.downloadcsv {
+    text-decoration:none; 
+    color: #222222; 
+    line-height:30px;
+}
+
+.downloadcsv:hover{
+    color: yellowgreen;
+}
+
+/*pagination*/

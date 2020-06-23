@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+            <Generator><![CDATA[BasicExcel by Omnihost - http://www.omnihost.co.nz - https://github.com/phpsa/BasicExcel]]></Generator>
+      <Author>BasicExcel</Author>
+      <Company>OmniHost.co.nz</Company>
+      <Keywords></Keywords>
+      <Version>1.0.0</Version>
+      <Title></Title>
+      <Subject></Subject>
+      <Comments></Comments>
+            <Created>2019-05-10T06:08:38Z</Created></DocumentProperties><Worksheet ss:Name="Sheet 1">
+    <Table>
+        <Row>
+        </Row>
+        <Row>
+        </Row>
+        <Row>
+        </Row>
+    </Table>
+</Worksheet>
+<Worksheet ss:Name="Sheet 2">
+    <Table>
+        <Row>
+        </Row>
+        <Row>
+        </Row>
+        <Row>
+        </Row>
+    </Table>
+</Worksheet>
+<Worksheet ss:Name="Sheet 3">
+    <Table>
+        <Row>
+        </Row>
+        <Row>
+        </Row>
+        <Row>
+        </Row>
+    </Table>
+</Worksheet>
+</Workbook>
